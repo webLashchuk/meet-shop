@@ -56,29 +56,58 @@
     </header>
 
 <main class="main">
-    <article id="popup" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a class="popup__close close-popup" href="#">
-                    <span class="sr-only">Close window</span>
-                </a>
-                <img src="images/about-first.jpg" alt="about" width="500" height="500">
-                <div class="popup__text">
-                    <h3 class="popup__title">Our technology</h3>
-                    <p>For me, food is all about balance. If you eat plenty of fruits, vegetables, and an appropriate amount
-                        of
-                        poultry, fish, and red meat that are sourced from good places, you're doing well.
-                    </p>
-                    <h3 class="popup__title">Our equipment</h3>
-                    <p>
-                        Laboratory Testing
-                        It's important to make sure that the meat you're consuming is hormone-free online shop.
-                    </p>
-                </div>
+    <article id="article-one" style="display:none;" class="popup">
+        <div id="dialog-content" class="popup__content">
+            <img src="images/about-first.jpg" alt="about" width="500" height="500">
+            <div class="popup__text">
+                <h3 class="popup__title">Our technology</h3>
+                <p>For me, food is all about balance. If you eat plenty of fruits, vegetables, and an appropriate amount
+                    of
+                    poultry, fish, and red meat that are sourced from good places, you're doing well.
+                </p>
+                <h3 class="popup__title">Our equipment</h3>
+                <p>
+                    Laboratory Testing
+                    It's important to make sure that the meat you're consuming is hormone-free online shop.
+                </p>
             </div>
         </div>
     </article>
-    <article id="popup1" class="popup">
+    <article id="article-two" style="display:none;" class="popup">
+        <div class="popup__content">
+            <img src="images/about-second.jpg" alt="about" width="500" height="500">
+            <div class="popup__text">
+                <h3 class="popup__title">Our technology</h3>
+                <p>For me, food is all about balance. If you eat plenty of fruits, vegetables, and an appropriate amount
+                    of
+                    poultry, fish, and red meat that are sourced from good places, you're doing well.
+                </p>
+                <h3 class="popup__title">Our equipment</h3>
+                <p>
+                    Laboratory Testing
+                    It's important to make sure that the meat you're consuming is hormone-free online shop.
+                </p>
+            </div>
+        </div>
+    </article>
+    <article id="article-three" style="display:none;" class="popup">
+        <div class="popup__content">
+            <img src="images/about-third.jpg" alt="about" width="500" height="500">
+            <div class="popup__text">
+                <h3 class="popup__title">Our technology</h3>
+                <p>For me, food is all about balance. If you eat plenty of fruits, vegetables, and an appropriate amount
+                    of
+                    poultry, fish, and red meat that are sourced from good places, you're doing well.
+                </p>
+                <h3 class="popup__title">Our equipment</h3>
+                <p>
+                    Laboratory Testing
+                    It's important to make sure that the meat you're consuming is hormone-free online shop.
+                </p>
+            </div>
+        </div>
+    </article>
+    <!-- <article id="popup1" class="popup">
         <div class="popup__body">
             <div class="popup__content">
                 <a class="popup__close close-popup" href="#">
@@ -121,7 +150,7 @@
                 </div>
             </div>
         </div>
-    </article>
+    </article> -->
 
     <section class="back-prop hero" style="background-image: url('images/hero-bg.jpg')">
         <div class="container hero__inner">
@@ -315,17 +344,17 @@
             <div class="about-slider swiper">
                 <div class="about-slider__wrapper swiper-wrapper">
                     <div class="about-slider__slide swiper-slide">
-                        <a href="#popup" class="popup-link">
+                        <a data-fancybox data-src="#article-one" href="#">
                             <img src="images/about-first.jpg" alt="Product" width="360" height="360">
                         </a>
                     </div>
                     <div class="about-slider__slide swiper-slide">
-                        <a href="#popup1" class="popup-link">
+                        <a data-fancybox data-src="#article-two" href="#">
                             <img src="images/about-second.jpg" alt="Product" width="360" height="360">
                         </a>
                     </div>
                     <div class="about-slider__slide swiper-slide">
-                        <a href="#popup2" class="popup-link">
+                        <a data-fancybox data-src="#article-three" href="#">
                             <img src="images/about-third.jpg" alt="Product" width="360" height="360">
                         </a>
                     </div>
